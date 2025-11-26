@@ -1,0 +1,70 @@
+
+{
+  "comment":["max 6 technologies!!"],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Yalla Eat",
+      "description": "The project aims to develop an online platform similar to the Talabat app, facilitating food and product orders from various stores and restaurants. The system manages transactions between customers, stores, and restaurants, offering a seamless user experience through a user-friendly interface.",
+      "imageUrl": "./Assets/yallaEat.jpg",
+      "projectUrl": "https://github.com/elsayedessam003/Graduation-Project",
+      "technologies": ["React", "Node.js", "MongoDB", "JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "name": "Game Hub",
+      "description": "A modern, responsive web application for discovering and exploring free-to-play games across various platforms and genres. Built with vanilla JavaScript, Bootstrap, and the Free-to-Play Games Database API.",
+      "imageUrl": "./Assets/game-hub.png",
+      "projectUrl": "https://github.com/dohahehe/Game-Hub",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Free-to-Play Games Database API"]
+    },
+    {
+      "id": 3,
+      "name": "Mealify.",
+      "description": "a modern and responsive practice project focused on mastering Flexbox layouts, responsive design, and clean code structure. It’s designed to showcase best practices in front-end development while keeping the UI simple, adaptable, and user-friendly.",
+      "imageUrl": "./Assets/mealify.png",
+      "projectUrl": "https://github.com/dohahehe/Mealify",
+      "technologies": ["HTML", "CSS", "Google Maps API"]
+    },
+    {
+      "id": 4,
+      "name": "Weather App",
+      "description": "A sleek, responsive weather application that provides real-time weather conditions and forecasts for cities worldwide.",
+      "imageUrl": "./Assets/weather-app.png",
+      "projectUrl": "https://github.com/dohahehe/Weather-App",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap", "Weather API", "Geolocation API"]
+    },
+    {
+      "id": 5,
+      "name": "Bookmarker",
+      "description": "A sleek, modern bookmark manager with theme support and smooth animations. Built with HTML, CSS, Bootstrap, and JavaScript.",
+      "imageUrl": "./Assets/bookmarker.png",
+      "projectUrl": "https://github.com/dohahehe/Bookmarker",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    },
+    {
+      "id": 6,
+      "name": "Quotes Generator",
+      "description": "A beautiful, responsive web application that displays random inspirational quotes from Goodreads. Built with HTML, CSS, Bootstrap, and JavaScript.",
+      "imageUrl": "./Assets/quote-g.png",
+      "projectUrl": "https://github.com/dohahehe/Quote-Generator",
+      "technologies": ["HTML", "CSS", "JavaScript", "Bootstrap"]
+    },
+    {
+      "id": 7,
+      "name": "Mealify.",
+      "description": "a modern and responsive practice project focused on mastering Flexbox layouts, responsive design, and clean code structure. It’s designed to showcase best practices in front-end development while keeping the UI simple, adaptable, and user-friendly.",
+      "imageUrl": "./Assets/mealify.png",
+      "projectUrl": "https://github.com/dohahehe/Mealify",
+      "technologies": ["HTML", "CSS", "Google Maps API"]
+    },
+    {
+      "id": 8,
+      "name": "Task Management System",
+      "description": "A productivity application for teams to manage projects and tasks. Features include real-time updates, file sharing, and time tracking.",
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1139&q=80",
+      "projectUrl": "#",
+      "technologies": ["Vue.js", "Firebase", "WebSockets"]
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Doha Ismail</title>
+        <link rel="icon" type="image/png" href="./Assets/favicon.png">
+        <!--GOOGLE FONT-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Comfortaa:wght@300..700&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">  
+        <!--BOOTSTRAP-->
+        <link rel="stylesheet" href="./Styles/bootstrap.min.css">
+        <!--FONTAWESOME-->
+        <link rel="stylesheet" href="./Styles/all.min.css">
+        <!--MAIN STYLESHEET-->
+        <link rel="stylesheet" href="./Styles/style.css">
+        <!--MEDIA QUERIES-->
+        <link rel="stylesheet" href="./Styles/media.css">
+        <!--THEME-->
+        <link rel="stylesheet" href="./Styles/theme.css">
+    </head>
+    <body>
+        <!--NAVBAR-->
+        <nav>
+            <div class="container">
+                <a href="index.html" class="logo">Doha I. Abou-Greisha</a>
+                <ul class="nav-links" id="nav-links">
+                    <a href="#" class="close-icon">
+                        <i class="fa-solid fa-xmark"></i>
+                    </a>
+                    <li>
+                        <a href="#intro">About</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#tech">Tech Stack</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="actions">
+                    <!--MENU ICON-->
+                    <a href="#nav-links" class="menu-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </a>
+                    <!--LIGHT & DARK MODES-->
+                    <div class="mode-container">
+                        <label class="ui-switch">
+                            <input class="mode" type="checkbox" id="mode">
+                            <div class="slider">
+                                <div class="circle"></div>
+                            </div>
+                            </label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!--INTRO HEADER-->
+
+        <header class="intro" id="intro">
+            <div class="container">
+                <div class="about-content">
+                    <h1>FRONT END DEVELOPER</h1>
+                    <h2>Hello, my name is Doha Abou-Greisha</h2>
+                    <p>I’m a Front-End Web Developer skilled in <strong>HTML, CSS, JavaScript, and React,</strong> passionate about building clean, responsive, and user-friendly web applications. As a recent <strong>Software Engineering graduate</strong>, I enjoy learning new technologies and turning ideas into impactful digital solutions!</p>
+                    <div class="btns">
+                        <button class="btn projects-btn">
+                            <a href="#projects">
+                                Projects
+                            </a>
+                        </button>
+                        <button class="btn linkedin-btn">
+                            <a href="./Assets/Doha Ismail CV.pdf " 
+                            download     target="_blank">Download CV</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="img-border">
+                    <div class="border">
+                        <div class="about-img">
+                            <img src="./Assets/doha.jpeg" alt="Doha Ismail">
+                            <div class="overlay">
+                                <div class="icons">
+                                    <a href="mailto:doha3312ismail@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+                                    <a href="https://www.linkedin.com/in/doha-abou-greisha/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+                                    <a href="https://github.com/dohahehe" target="_blank">
+                                        <i class="fa-brands fa-github"></i>
+                                    </a>
+                                    <a href="https://wa.me/01001062439" target="_blank">
+                                        <i class="fa-brands fa-whatsapp"></i>
+                                    </a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+        </header>
+
+        <!--PROJECTS SECTION-->
+
+        <section class="projects section-bg" id="projects">
+            <div class="container">
+                <h1 class="title">Projects</h1>
+                <div class="projects-container" id="projects-container">
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i> Loading projects...
+                    </div>
+                    <div class="project" style="display: none;">
+                    <div class="project-content">
+                        <h2>Project Name</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit perspiciatis fuga nobis ab dignissimos quidem molestias quaerat voluptatum, neque culpa laborio aliquam consectetur? Reiciendis inventore aliquam iste quos. Vero velit ipsa adipisci expedita fugiat, nobis sapiente quaerat praesentium placeat. Fugit.</p>
+                        <a href="#">View Project</a>
+                        <ul class="tech-icons">
+                            <!-- <li><i class="fa-brands fa-html5"></i></li>
+                            <li><i class="fa-brands fa-css3"></i></li>
+                            <li><i class="fa-brands fa-square-js"></i></li>
+                            <li><i class="fa-brands fa-react"></i></li> -->
+                        </ul>
+                    </div>
+                    <img src="./Assets/image.png" alt="" width="50%">
+                </div>
+                </div>
+                <!-- Pagination controls -->
+                <div class="pagination">
+                    <button class="prev" disabled><i class="fa-solid fa-chevron-left"></i></button>
+                    <button class="page active">1</button>
+                    <button class="page">2</button>
+                    <button class="page">3</button>
+                    <button class="next"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+
+            </div>
+        </section>
+
+        <!--TECHNOLOGIES SECTION-->
+
+        <section class="tech" id="tech">
+            <div class="container">
+                <h1 class="title">Tech Stack</h1>
+                <div class="tech-container">
+                    <div class="technology">
+                        <i class="fa-brands fa-html5"></i>
+                        <div class="tech-content">
+                            <h3>HTML</h3>
+                            <p>Expert</p>
+                        </div>
+                    </div>
+                    <div class="technology">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <div class="tech-content">
+                            <h3>CSS</h3>
+                            <p>Expert</p>
+                        </div>
+                    </div>
+                    <div class="technology">
+                        <i class="fa-brands fa-bootstrap"></i>
+                        <div class="tech-content">
+                            <h3>Bootstrap</h3>
+                            <p>Expert</p>
+                        </div>
+                    </div>
+                    <div class="technology">
+                        <i class="fa-brands fa-square-js"></i>
+                        <div class="tech-content">
+                            <h3>JavaScript</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <div class="technology">
+                        <i class="fa-brands fa-react"></i>
+                        <div class="tech-content">
+                            <h3>React</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                    <div class="technology">
+                        <i class="fa-brands fa-envira"></i>
+                        <div class="tech-content">
+                            <h3>MongoDB</h3>
+                            <p>Experienced</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <!--FOOTER-->
+
+            <footer class="contact" id="contact">
+                <div class="container">
+                    <h1>Want to collaborate?</h1>
+                    <div class="footer-content">
+                        <p class="f">feel free to contact me 
+                            through any of these platforms!
+                        </p>
+                        <ul>
+                            <li>
+                                <a href="mailto:doha3312ismail@gmail.com">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/doha-abou-greisha/" target="_blank">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://wa.me/01001062439" target="_blank">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <p class="rights">© 2025 Doha Abou-Greisha. All rights reserved.</p>
+
+                    </div>
+                </div>
+                <img class="wave wave-light" src="./Assets/wave.svg" alt="wave">
+                <img class="wave wave-dark" src="./Assets/wave-dark.svg" alt="wave-dark">
+           </footer>
+
+    <!--BOOTSTRAP-->
+    <script src="./Scripts/bootstrap.bundle.min.js"></script>
+    <!--MAIN SCRIPT-->
+    <script src="./Scripts/fetch.js"></script>
+        
+    </body>
+</html>

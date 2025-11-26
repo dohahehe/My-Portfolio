@@ -1,0 +1,42 @@
+:root:has(.mode:checked) {
+  --primary-hue: 0;
+  --primary-lightness: 85%;
+  --primary-saturation: 75%;
+  --light-hue: 0;
+  --light-saturation: 0%;
+  --light-lightness: 9%;
+  --color-default: #fff;
+  --color-secondary: #fff;
+  --color-tertiary: #9f9f9f;
+  --color-light-grey: #252525;
+}
+body:not(body:has(:target)):has(.mode:checked) li a[href="#home"],
+body:has(.home:target):has(.mode:checked) li a[href="#home"],
+body:has(.contact:target):has(.mode:checked) li a[href="#contact"],
+body:has(.gallery:target):has(.mode:checked) li a[href="#gallery"],
+body:has(.chefs:target):has(.mode:checked) li a[href="#chefs"] {
+  color: hsl(
+    var(--light-hue),
+    var(--light-saturation),
+    calc(var(--light-lightness) + 90%)
+  );
+}
+
+body:has(.mode:checked) nav .nav-links a:hover {
+  color: #fff;
+}
+:root:has(.mode:checked) body {
+  background-color: #202020;
+}
+:root:has(.mode:checked) .mode-container .dark {
+  display: none;
+}
+:root:has(.mode:checked) .mode-container .light {
+  display: block;
+}
+:root:has(.mode:checked) footer .wave-light {
+  display: none;
+}
+:root:has(.mode:checked) footer .wave-dark {
+  display: block;
+}
